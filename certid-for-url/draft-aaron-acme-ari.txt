@@ -4,8 +4,8 @@
 
 ACME Working Group                                              A. Gable
 Internet-Draft                          Internet Security Research Group
-Intended status: Standards Track                           17 March 2022
-Expires: 18 September 2022
+Intended status: Standards Track                           18 March 2022
+Expires: 19 September 2022
 
 
 Automated Certificate Management Environment (ACME) Renewal Information
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 September 2022.
+   This Internet-Draft will expire on 19 September 2022.
 
 Copyright Notice
 
@@ -145,8 +145,8 @@ Table of Contents
 
    The full request URL is computed by concatenating the renewalInfo URL
    from the server's directory with a forward slash and the base64url-
-   encoding [RFC4648] of the bytes of the DER encoding of a CertID ASN.1
-   sequence [RFC6960].  Trailing '=' characters MUST be stripped.
+   encoded [RFC4648] bytes of a DER-encoded CertID ASN.1 sequence
+   [RFC6960].  Trailing '=' characters MUST be stripped.
 
    For example, to request renewal information for the certificate given
    in Appendix A.1, issued by the CA given in Appendix A.2, using
