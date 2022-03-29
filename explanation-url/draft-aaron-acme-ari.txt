@@ -4,8 +4,8 @@
 
 ACME Working Group                                              A. Gable
 Internet-Draft                          Internet Security Research Group
-Intended status: Standards Track                           18 March 2022
-Expires: 19 September 2022
+Intended status: Standards Track                           29 March 2022
+Expires: 30 September 2022
 
 
 Automated Certificate Management Environment (ACME) Renewal Information
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 September 2022.
+   This Internet-Draft will expire on 30 September 2022.
 
 Copyright Notice
 
@@ -175,7 +175,8 @@ Table of Contents
    explain why the suggested renewal window is what it is.  For example,
    it may be a page explaining the CA's dynamic load-balancing strategy,
    or a page documenting which certificates are affected by a mass
-   revocation event.
+   revocation event.  Conforming clients SHOULD provide this URL to
+   their operator, if present.
 
    HTTP/1.1 200 OK
    Content-Type: application/json
